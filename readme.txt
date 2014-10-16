@@ -8,7 +8,7 @@ Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Automatically syntax highlighting of QlikView script on any Wordpress page or post.
+Automatic syntax highlighting of QlikView script on any Wordpress page or post.
 
 == Description ==
 This Wordpress plugin provides automatic syntax highlighting of QlikView script on any Wordpress page or post. It currently supports highlighting of the following QlikView script elements:
