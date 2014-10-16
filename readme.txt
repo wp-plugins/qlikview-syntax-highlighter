@@ -46,6 +46,10 @@ It uses a custom build of highlight.js to provide the highlighting.
 2. Includes a support for adding shortcode via the Wordpress visual post/page editor.
 
 == Changelog ==
+= 1.0
+* General code improvements.
+* Corrected issue with $() variable use within a load statement not being highlighted correctly.
+
 = 0.2 =
 * Added support for highlighting QlikView expressions
 * Added the ability to hightlight a handful of other languages that are related to QlikView.
