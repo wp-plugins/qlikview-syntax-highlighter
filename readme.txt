@@ -33,9 +33,6 @@ Alternatively, the shortcode can be entered using the button within the WordPres
 If you spot any issues or have any suggestions to improve the plugin, please let me know either via the support tab here, or via a comment on [QlikViewAddict.com](http://www.qlikviewaddict.com/p/qlikview-wordpress-plugin.html).
 
 == Installation ==
-There are 2 possible methods to install this plugin. We would highly recommend using method 1.
-
-= Method 1 =
 1. Login to your WordPress Admin Portal.
 2. On the left hand navigation panel, select "Plugins". 
 3. Towards the top of the plugins list, click the "Add New" button. 
@@ -43,25 +40,6 @@ There are 2 possible methods to install this plugin. We would highly recommend u
 5. The QlikView for WordPress plugin is currently the only result returned. Click the "Install Now" button next to it.
 6. WordPress will then download and install the plugin for you. Once complete, click the "Activate Plugin" link to complete the installation.
 7. The plugin is now installed and the shortcode is ready to use.
-
-= Method 2 =
-Note: if you have a previous version of this plugin installed it must be removed before this version is installed.
-1. Download the plugin zip file by clicking the link above.
-2. Login to your WordPress Admin Portal.
-3. On the left hand navigation panel, select "Plugins". 
-4. Towards the top of the plugins list, click the "Add New" button.
-5. Again, towards the top, click the "Upload Plugin" button.
-6. Click the "Browse" button and navigate to the location where you saved the plugin zip file and select it.
-7. Click the "Install Now" button
-8. Once back on the plugins page, activate the "QlikView for Wordpress" plugin.
-
-= Method 3 =
-1. Download the plugin zip file by clicking the link above.
-2. Extract the contents of the zip file to a folder on your computer.
-3. Upload the entire directory "/qlikview-highlight/" and its contents from the .zip file to the "/wp-content/plugins/" directory of your Wordpess site. If a previous version of this plugin has been installed, overwrite the entire folder.
-4. Login to your WordPress Admin Portal.
-5. On the left hand navigation panel, select "Plugins".
-6. Activate the "QlikView for WordPress" plugin.
 
 == Frequently Asked Questions ==
 = Once installed, how do I use the plugin? =
