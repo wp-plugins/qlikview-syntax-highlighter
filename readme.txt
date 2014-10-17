@@ -33,6 +33,8 @@ Alternatively, the shortcode can be entered using the button within the WordPres
 If you spot any issues or have any suggestions to improve the plugin, please let me know either via the support tab here, or via a comment on [QlikViewAddict.com](http://www.qlikviewaddict.com/p/qlikview-wordpress-plugin.html).
 
 == Installation ==
+There are 3 possible methods to install this plugin. We would highly recommend using method 1.
+= Method 1 =
 1. Login to your WordPress Admin Portal.
 2. On the left hand navigation panel, select "Plugins". 
 3. Towards the top of the plugins list, click the "Add New" button. 
