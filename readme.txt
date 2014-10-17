@@ -86,9 +86,10 @@ It uses a custom build of highlight.js to provide the highlighting.
 2. Includes a support for adding shortcode via the WordPress visual post/page editor.
 
 == Changelog ==
-= 1.0
+= 1.0 =
 * General code improvements.
 * Corrected issue with $() variable use within a load statement not being highlighted correctly.
+* Corrected issue with nesting of interpretation functions (those ending with a #) and those functions for which a keyword exists with the same name.
 
 = 0.2 =
 * Added support for highlighting QlikView expressions
@@ -103,6 +104,9 @@ It uses a custom build of highlight.js to provide the highlighting.
 * Initial pre-release.
 
 == Upgrade Notice ==
+= 1.0 =
+Version 1.0 represents the first official full release of QlikView for WordPress. It includes some minor bug fixes and improvements to the highlighting.
+
 = 0.2 =
 This version provides significant improvements and bug fixes over the previous release and marks it's migration to WordPress.org. All previous versions of this plugin should be uninstalled from WordPress before this version is installed.
 
@@ -110,4 +114,4 @@ This version provides significant improvements and bug fixes over the previous r
 This version provides the initial pre-release.
 
 == Credits ==
-Thanks to Steve Dark and Dan Barraett for great help with testing the plugin!
+Thanks go to Steve Dark and Dan Barraett for their help with testing the plugin! Additionally I'd like to thank Ivan Sagalaev and all the other contributors of Highlight.js which this plugin is based upon.
