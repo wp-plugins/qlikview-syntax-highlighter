@@ -21,6 +21,7 @@ It currently supports highlighting of the following QlikView script elements:
 * REM comment REM...;
 * All QlikView 11.20 keywords, statements and functions (that are permitted within the script)
 * Variable definitions (using SET and LET) and variable use (within $())
+* Highlighting of field names in most situations 
 
 Future improvements may include better more accurate syntax highlighting (such as field names) and the ability to change the highlighting style from the QlikView default.
 
@@ -82,14 +83,17 @@ It uses a custom build of highlight.js to provide the highlighting.
 
 == Screenshots ==
 
-1. An example section of QlikView script showing the syntax highlighting provided by this plugin. 
+1. An example section of QlikView code showing the syntax highlighting provided by this plugin. 
 2. Includes a support for adding shortcode via the WordPress visual post/page editor.
 
 == Changelog ==
 = 1.0 =
-* General code improvements.
+* General code performance improvements.
 * Corrected issue with $() variable use within a load statement not being highlighted correctly.
 * Corrected issue with nesting of interpretation functions (those ending with a #) and those functions for which a keyword exists with the same name.
+* Added field name highlighting within expressions.
+* Added field name highlighting within most places within script
+* Added identification of total modifiers, set analysis elements and load statement sources to improve nesting control.
 
 = 0.2 =
 * Added support for highlighting QlikView expressions
@@ -105,7 +109,7 @@ It uses a custom build of highlight.js to provide the highlighting.
 
 == Upgrade Notice ==
 = 1.0 =
-Version 1.0 represents the first official full release of QlikView for WordPress. It includes some minor bug fixes and improvements to the highlighting.
+Version 1.0 represents the first official full release of QlikView for WordPress. It includes some minor bug fixes and significant improvements to the highlighting.
 
 = 0.2 =
 This version provides significant improvements and bug fixes over the previous release and marks it's migration to WordPress.org. All previous versions of this plugin should be uninstalled from WordPress before this version is installed.
