@@ -4,7 +4,7 @@ Tags: highlight, syntax, qlikview, post, page, shortcode, plugin
 Donate link: http://www.qlikviewaddict.com/
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 0.2
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,8 +21,7 @@ It currently supports highlighting of the following QlikView script elements:
 * REM comment REM...;
 * All QlikView 11.20 keywords, statements and functions (that are permitted within the script)
 * Variable definitions (using SET and LET) and variable use (within $())
-
-Future improvements may include better more accurate syntax highlighting (such as field names) and the ability to change the highlighting style from the QlikView default.
+* Field names in most common situations
 
 = How to use =
 Simply wrap any QlikView code blocks within the [qlikview] ... [/qlikview] shortcode tags. By default, the plugin will assume that the code contained in the tags is QlikView script and will highlight it accordingly. You can specify an alternative code type using the type parameter within the opening tag. For example [qlikview type="exp"]=num(MyField)[/qlikview]. Currently supported code types are "qvs", "exp" (or "qve"), "sql", "vbscript" and "javascript". If no code type is specified then "qvs" will be assumed. 
@@ -47,7 +46,7 @@ There are 3 possible methods to install this plugin. We would highly recommend u
 1. Download the plugin zip file by clicking the link above.
 2. Login to your WordPress Admin Portal.
 3. On the left hand navigation panel, select "Plugins". 
-4. Towards the top of the plugins list, click the "Add New" button. Note: if you have a previous version of this plugin installed it must be removed before proceeding.
+4. Towards the top of the plugins list, click the "Add New" button. Note, if you have a previous version of this plugin installed it must be removed before proceeding.
 5. Again, towards the top, click the "Upload Plugin" button.
 6. Click the "Browse" button and navigate to the location where you saved the plugin zip file and select it.
 7. Click the "Install Now" button
