@@ -44,12 +44,10 @@ There are 3 possible methods to install this plugin. We would highly recommend u
 7. The plugin is now installed and the shortcode is ready to use.
 
 = Method 2 =
-Note: if you have a previous version of this plugin installed it must be removed before this version is installed.
-
 1. Download the plugin zip file by clicking the link above.
 2. Login to your WordPress Admin Portal.
 3. On the left hand navigation panel, select "Plugins". 
-4. Towards the top of the plugins list, click the "Add New" button.
+4. Towards the top of the plugins list, click the "Add New" button. Note: if you have a previous version of this plugin installed it must be removed before proceeding.
 5. Again, towards the top, click the "Upload Plugin" button.
 6. Click the "Browse" button and navigate to the location where you saved the plugin zip file and select it.
 7. Click the "Install Now" button
