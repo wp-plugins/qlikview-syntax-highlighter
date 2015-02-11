@@ -3,8 +3,8 @@ Contributors: Matt Fryer
 Tags: highlight, syntax, qlikview, post, page, shortcode, plugin
 Donate link: http://www.qlikviewaddict.com/
 Requires at least: 4.0
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,10 +84,20 @@ It uses a custom build of highlight.js to provide the highlighting.
 2. Includes a support for adding shortcode via the WordPress visual post/page editor.
 
 == Changelog ==
+= 1.1 =
+* Updated the highlight.js core to the latest version.
+* Improvements to the identification of field names in both script and expressions.
+* Added missing IN keyword.
+* Added missing filelist() function.
+
 = 1.0 =
 * General code improvements.
 * Corrected issue with $() variable use within a load statement not being highlighted correctly.
 * Corrected issue with nesting of interpretation functions (those ending with a #) and those functions for which a keyword exists with the same name.
+* Added highlighting of field names in most common situations.
+* Added correct identification of set analysis and its composite parts within expressions allowing highlighting of items within it.
+* Corrected list of functions within expressions as that not all functions are possible in both script and expressions.
+* Added initial code to package as a MediaWiki plugin.
 
 = 0.2 =
 * Added support for highlighting QlikView expressions
@@ -102,6 +112,9 @@ It uses a custom build of highlight.js to provide the highlighting.
 * Initial pre-release.
 
 == Upgrade Notice ==
+= 1.0 =
+Version 1.1 includes an update to the highlight.js core and minor highlighting improvements.
+
 = 1.0 =
 Version 1.0 represents the first official full release of QlikView for WordPress. It includes some minor bug fixes and improvements to the highlighting.
 

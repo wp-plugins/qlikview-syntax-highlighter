@@ -1,13 +1,13 @@
 <?php
 /**
  * @package QlikView_Highlight
- * @version 1.0
+ * @version 1.1
  */
 /*/
  * Plugin Name: QlikView for WordPress
  * Plugin URI: http://www.qlikviewaddict.com/p/qlikview-wordpress-plugin.html
  * Description: Automatic syntax highlighting of QlikView script and expressions on any WordPress page or post.
- * Version: 1.0
+ * Version: 1.1
  * Author: Matt Fryer
  * Author URI: http://www.qlikviewaddict.com/
  * License: GPLv2 or later
